@@ -11,7 +11,7 @@ function [Y, W, H] = grals(Lh, Lw, Omega, Y, k, Otest)
 %   Lw: Rows laplacian
 %   Omega: Observed training data mask
 %   Y: Measured data
-%   k: Number of iterations
+%   k: Rank of decomposition
 %   Otest: Observed test mask
 % Outputs:
 %   Y: Estimated data (Y=W*H')
